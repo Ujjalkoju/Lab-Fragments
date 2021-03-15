@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 15 22:09:17 NPT 2021
+#Mon Mar 15 23:25:21 NPT 2021
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\l\\AndroidStudioProjects\\FragmentExample1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex
