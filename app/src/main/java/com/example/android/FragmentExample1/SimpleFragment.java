@@ -53,4 +53,7 @@ public class SimpleFragment extends Fragment {
         // Return the View for the fragment's UI.
         return rootView;
     }
+    public static SimpleFragment newInstance() {
+        return new SimpleFragment();
+    }
 }

@@ -1,9 +1,8 @@
 # Fragments
-## Task 1: Include a Fragment for the entire Activity lifecycle
+## Task 2: Add a Fragment to an Activity dynamically
 ### Fragment_app_Screenshots
-![](./task1a.jpg)
-![](./task1b.jpg)
-![](./task1c.jpg)
-### Landscape view(radio button unchanged)
-![](./task1d.jpg)
+![](./task2a.jpg)
+### App after open button is clicked
+![](./task2b.jpg)
+
 
