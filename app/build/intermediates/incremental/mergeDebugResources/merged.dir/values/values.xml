@@ -535,9 +535,11 @@
     <string name="close">Close</string>
     <string name="exception_message">must implement OnFragmentInteractionListener</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
     <string name="no">No</string>
     <string name="no_message">ARTICLE: Thanks</string>
     <string name="open">Open</string>
+    <string name="previous">Previous</string>
     <string name="question_article">LIKE THE ARTICLE?</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>

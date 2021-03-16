@@ -1,5 +1,7 @@
 package com.example.android.FragmentExample1;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button mButton;
     private boolean isFragmentDisplayed = false;
+    private Button BtnNxt;
 
     // Saved instance state key.
     static final String STATE_FRAGMENT = "state_of_fragment";
@@ -21,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Get the button for opening and closing the fragment.
         mButton = findViewById(R.id.open_button);
+        BtnNxt = findViewById(R.id.btn_nxt);
 
         // If returning from a configuration change, get the
         // fragment state and set the button text.
@@ -40,6 +44,15 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     closeFragment();
                 }
+            }
+        });
+
+        BtnNxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = SecondActivity.makeIntent(MainActivity.this);
+
+                startActivity(intent);
             }
         });
     }
@@ -86,6 +99,10 @@ public class MainActivity extends AppCompatActivity {
         // Save the state of the fragment (true=open, false=closed).
         savedInstanceState.putBoolean(STATE_FRAGMENT, isFragmentDisplayed);
         super.onSaveInstanceState(savedInstanceState);
+    }
+    public static Intent makeIntent(Context context) {
+        Intent intent = new Intent(context, MainActivity.class);
+        return intent;
     }
 }
 

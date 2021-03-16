@@ -657,6 +657,8 @@ id basic
 id beginning
 id blocking
 id bottom
+id btn_nxt
+id btn_pre
 id buttonPanel
 id cancel_action
 id chains
@@ -716,6 +718,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id search_badge
 id search_bar
 id search_button
@@ -791,6 +794,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_second
 layout fragment_simple
 layout notification_action
 layout notification_action_tombstone
@@ -851,9 +855,11 @@ string article2
 string close
 string exception_message
 string hello_blank_fragment
+string next
 string no
 string no_message
 string open
+string previous
 string question_article
 string search_menu_title
 string status_bar_notification_info_overflow
